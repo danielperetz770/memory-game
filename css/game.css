@@ -1,0 +1,97 @@
+body {
+    background-image: url('https://media.fab.com/image_previews/gallery_images/fb86f822-027c-4b84-9e73-3ebed5e10d97/1061b3f9-face-4843-b1ba-4dd181c0e125.png');
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+
+}
+
+.score {
+    background-color: rgb(128, 48, 48);
+}
+
+.userName {
+    background-color: rgb(155, 46, 46);
+}
+
+.h1-container {
+    text-align: center;
+}
+
+/* background-image: url('https://m.media-amazon.com/images/I/71OaAtUeNLL._AC_UF1000,1000_QL80_.jpg'); */
+.my-header {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+
+.my-header .header-btn {
+    background-color: rgb(74, 6, 69);
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+.my-header a:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
+
+.my-header .header-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(74, 6, 69);
+}
+
+.my-header img {
+    opacity: 1;
+}
+
+.my-header img:hover {
+    opacity: 0.2;
+}
+
+
+.card {
+    background-color: gray;
+    width: 165px;
+    height: 165px;
+    margin: 10px;
+    border-radius: 15%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#stopwatch {
+    color: rgb(247, 255, 12);
+}
+
+.card img {
+    transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease, opacity 0.3s ease;
+    position: absolute;
+    border-radius: 15%;
+    width: 175px;
+    height: 175px;
+}
+
+.card img:hover {
+    width: 185px;
+    height: 185px;
+    background-color: rgb(155, 46, 46);
+}
+
+.flipped .back {
+    display: none;
+}
+
+.my-footer {
+    background-color: rgb(74, 6, 69);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+
+}

@@ -1,0 +1,117 @@
+<html>
+
+<head>
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/8293/8293566.png">
+</head>
+
+<body>
+    <div class="my-header">
+        <img src="img/logo.webp" />
+        <br />
+        <hr />
+        
+        <div id="stopwatch">00:00:00</div>
+
+        <a class="header-btn" href="home.html">Back home</a>
+        <button class="header-btn" onclick="playAgain()">Play Again</button>
+        <button class="header-btn" onclick="changeName()">Change Name</button>
+        <button class="header-btn" onclick="shuffle()">Shuffle Card</button>
+    </div>
+    <div class="board">
+
+        <div class="card" onclick="onCardClick(this)" data-card="9">
+            <img src="img/cards/9.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="10">
+            <img src="img/cards/10.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="1">
+            <img src="img/cards/1.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="8">
+            <img src="img/cards/8.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="7">
+            <img src="img/cards/7.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="5">
+            <img src="img/cards/5.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="6">
+            <img src="img/cards/6.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="2">
+            <img src="img/cards/2.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="7">
+            <img src="img/cards/7.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="1">
+            <img src="img/cards/1.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="5">
+            <img src="img/cards/5.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="2">
+            <img src="img/cards/2.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+
+        <div class="card" onclick="onCardClick(this)" data-card="3">
+            <img src="img/cards/3.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="9">
+            <img src="img/cards/9.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="4">
+            <img src="img/cards/4.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="10">
+            <img src="img/cards/10.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="6">
+            <img src="img/cards/6.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="3">
+            <img src="img/cards/3.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="8">
+            <img src="img/cards/8.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+        <div class="card" onclick="onCardClick(this)" data-card="4">
+            <img src="img/cards/4.png" />
+            <img class="back" src="img/cards/back.png" />
+        </div>
+    </div>
+
+    <div class="my-footer">
+        <div class="h1-container">
+            <h1 class="userName">Let's Play</h1>
+            <h1 class="score">best score:</h1>
+        </div>
+        coffeerights Daniel Peretz 2025
+    </div>
+    <script src="js/game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<html>
+
+<head>
+  <title>My Home page</title>
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="icon" type="image/x-icon" href="https://freepngimg.com/download/earth/33030-2-earth-image.png">
+</head>
+
+<body>
+  <div class="my-header">
+    <h1><span class="highlight">H</span>ome <span class="highlight">P</span>age</h1>
+    <h2>
+      welcome to Daniel monsters world
+    </h2>
+  </div>
+
+  <img class="imag" src="img/daniel.jpg" alt=""> <br>
+  <div class="a-container">
+    <a class="highlight1" href="game.html">Go Play</a>
+  </div>
+
+  <a class="highlight1" href="http://danielperetz620@gmail.com">Email:</a>
+  <a class="highlight1" href="+972532809594">Phone:</a>
+
+  <p>
+    Learn how to code Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum fugiat odio numquam sed iste
+    tempore itaque dolorem, quia laborum, repellendus vero quidem mollitia eius quibusdam voluptas perspiciatis,
+    adipisci cumque delectus?
+  </p>
+  <p>
+    Coding is so much fun Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, consectetur esse ut
+    aspernatur praesentium expedita a voluptatum ipsam impedit vitae consequatur illum minima, perspiciatis dolorum
+    eligendi quas nesciunt cum maiores?
+  </p>
+
+  <div class="my-footer">
+    coffeerights Daniel Peretz 2025
+    <button class="btn-check-age" onclick="checkUserAge()">Check User Age</button>
+  </div>
+
+  <script>
+
+    function checkUserAge() {
+      var age = +prompt('How old are you?')
+
+      if (age < 18) {
+        alert('Too young to play!')
+      } else {
+        age = age + 1
+        var msg = 'Next year, your age will be: ' + age
+        alert(msg)
+      }
+    }
+  </script>
+</body>
+
+</html>
